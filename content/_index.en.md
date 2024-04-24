@@ -1,11 +1,11 @@
 ---
-title: Hextra 테마
+title: Hextra Theme
 layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span> 무료 오픈 소스</span>
+  <span>Free, open source</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
