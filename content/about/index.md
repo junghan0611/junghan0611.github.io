@@ -1,6 +1,7 @@
 ---
 title: About
 toc: false
+comments: true
 ---
 
 Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.

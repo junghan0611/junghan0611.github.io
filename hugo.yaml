@@ -64,15 +64,28 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - name: Search
+    - name: Contact ↗
       weight: 5
+      url: "https://github.com/junghan0611"
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/junghan0611/junghan0611.github.io"
       params:
         icon: github
+    - name: Mastodon
+      weight: 8
+      url: "https://emacs.ch/@junghanacs"
+      params:
+        icon: mastodon
+    # - name: Twitter
+    #   weight: 9
+    #   url: "https://twitter.com/junghanacs"
+    #   params:
+    #     icon: x-twitter
 
   sidebar:
     - identifier: more
@@ -152,13 +165,13 @@ params:
 
     # https://giscus.app/
     giscus:
-      # repo: imfing/hextra
-      # repoId: R_kgDOJ9fJag
-      # category: General
-      # categoryId: DIC_kwDOJ9fJas4CY7gW
-      # mapping: pathname
-      # strict: 0
-      # reactionsEnabled: 1
-      # emitMetadata: 0
-      # inputPosition: top
-      # lang: en
+      repo: junghan0611/junghan0611.github.io
+      repoId: R_kgDOLyemTw
+      category: Announcements
+      categoryId: DIC_kwDOLyemT84Ce5jG
+      mapping: pathname
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: bottom
+      lang: ko
