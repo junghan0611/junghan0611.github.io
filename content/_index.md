@@ -5,7 +5,7 @@ date: 2024-04-29T16:57:00+09:00
 lastmod: 2024-05-01T07:12:15+09:00
 tags: ["index"]
 draft: false
-title: Text Master
+title: "Text Master"
 toc: false
 ---
 

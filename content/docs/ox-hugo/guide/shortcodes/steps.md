@@ -2,7 +2,7 @@
 title: "Steps"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:07:36+09:00
+lastmod: 2024-05-01T07:27:52+09:00
 series: ["hextra"]
 tags: ["docs", "hugo", "guide", "hetra", "menu"]
 categories: ["hugo"]

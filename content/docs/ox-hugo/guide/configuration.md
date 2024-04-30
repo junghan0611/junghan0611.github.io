@@ -2,7 +2,7 @@
 title: "Configuration"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:07:21+09:00
+lastmod: 2024-05-01T07:27:20+09:00
 series: ["hextra"]
 tags: ["docs", "hugo", "guide", "hetra", "menu"]
 categories: ["hugo"]

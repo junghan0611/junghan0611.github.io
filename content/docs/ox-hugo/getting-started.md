@@ -2,7 +2,7 @@
 title: "Getting Started"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:07:13+09:00
+lastmod: 2024-05-01T07:27:13+09:00
 series: ["hextra"]
 tags: ["hugo", "orgmode", "reference"]
 categories: ["hugo"]
