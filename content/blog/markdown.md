@@ -8,10 +8,12 @@ authors:
   - name: Octocat
     link: https://github.com/octocat
     image: https://github.com/octocat.png
-tags:
-  - Markdown
-  - Example
-  - Guide
+# tags:
+#   - Markdown
+#   - Example
+#   - Guide
+tags: ["Markdown", "Example", "Guide"]
+# categories: ["Demo"]
 excludeSearch: true
 ---
 

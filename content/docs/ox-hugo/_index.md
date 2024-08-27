@@ -2,19 +2,20 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:27:12+09:00
-series: ["hextra"]
-tags: ["hugo", "orgmode", "reference"]
-categories: ["hugo"]
+series: ["BASIC"]
+keywords: ["docs", "hugo", "index"]
+categories: ["Docs"]
 draft: false
-title: "Introduction"
-linkTitle: "ox-hugo"
+title: "Hextra 문서"
+linkTitle: "Hextra 문서"
 weight: 2
 ---
 
-<mark>exported by ox-hugo on Org_Mode &amp; Emacs</mark> 👋 Hello! Welcome to the Hextra documentation!
+<mark>Powered by Emacs + Org-Mode + Hugo + Hextra</mark> 마크다운으로 작성 된 Hextra 매뉴얼을 Org 모드로 변경 후 내보내기 함.
 
 <!--more-->
+
+👋 Hello! Welcome to the Hextra documentation!
 
 
 ## What is Hextra? {#what-is-hextra}

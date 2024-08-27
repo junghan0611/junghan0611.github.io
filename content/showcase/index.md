@@ -1,5 +1,5 @@
 ---
-title: Showcase
+title: Talks
 description: "Open source projects powered by Hextra"
 toc: false
 layout: wide

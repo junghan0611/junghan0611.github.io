@@ -2,10 +2,9 @@
 title: "Diagram"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:27:24+09:00
-series: ["hextra"]
-tags: ["docs", "hugo", "guide", "hetra", "menu"]
-categories: ["hugo"]
+series: ["BASIC"]
+keywords: ["docs", "hugo", "menu"]
+categories: ["Docs"]
 draft: false
 weight: 6
 next: /docs/ox-hugo/guide/shortcodes

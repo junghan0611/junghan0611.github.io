@@ -3,10 +3,9 @@ title: "Guide"
 author: ["Junghan Kim"]
 description: "Guide"
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:27:19+09:00
-series: ["hextra"]
-tags: ["docs", "hugo", "guide", "hetra", "menu", "index"]
-categories: ["hugo"]
+series: ["BASIC"]
+keywords: ["docs", "hugo", "menu", "index"]
+categories: ["Docs"]
 draft: false
 
 title: Guide

@@ -2,10 +2,9 @@
 title: "Markdown"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-lastmod: 2024-05-01T07:27:21+09:00
-series: ["hextra"]
-tags: ["docs", "hugo", "guide", "hetra", "menu"]
-categories: ["hugo"]
+series: ["BASIC"]
+keywords: ["docs", "hugo", "menu"]
+categories: ["Docs"]
 draft: false
 weight: 2
 ---
@@ -18,7 +17,7 @@ weight: 2
 ## Markdown Examples {#markdown-examples}
 
 
-### <span class="org-todo todo TODO">TODO</span> Styling Text {#styling-text}
+### Styling Text {#styling-text}
 
 수정 필요 : 잘 안가져와 진다. 그냥 그려야 할 듯
 
