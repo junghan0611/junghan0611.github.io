@@ -18,8 +18,6 @@ weight: 9
 
 구글 독스로 올려 놓은 문서에 참 많은 분들이 참여해 주셨다. 문서의 보다 개선하기 위해서 변환 후 활용.
 
-<div align="left">
+<a id="figure--fig-gdocs"></a>
 
-<_20240827_155642screenshot.png>
-
-</div>
+{{< figure src="/images/_20240827_155642screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>구글 독스 스크린샷" width="80%" >}}

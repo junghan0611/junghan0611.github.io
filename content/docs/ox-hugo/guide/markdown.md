@@ -83,11 +83,11 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 
 <https://source.unsplash.com/featured/800x600?landscape>
 
-org-attach 이용 (local) <20240427_083652_screenshot.png>
+org-attach 이용 (local) ![](/home/junghan/sync/org/docs/20240427_083652_screenshot.png)
 
 With caption:
 
-<20240427_083652_screenshot.png>
+{{< figure src="/home/junghan/sync/org/docs/20240427_083652_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>Unsplash Landscape" >}}
 
 다른 예 (online)
 

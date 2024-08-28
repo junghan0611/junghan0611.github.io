@@ -2,8 +2,16 @@
     margin: 0px 4px;
 }
 
-.hx-text-3xl {
-  font-size: 1.8rem;
+/* .hx-text-3xl { */
+/*   font-size: 1.8rem; */
+/* } */
+
+/* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard-dynamic-subset.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+.content {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Noto Sans KR", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
 }
 
 /* .content { */
