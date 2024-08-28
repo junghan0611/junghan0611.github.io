@@ -3,7 +3,6 @@ title: "2.무엇을 해야 하는가? 실행 목록"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
-categories: ["Docs"]
 draft: false
 weight: 3
 ---

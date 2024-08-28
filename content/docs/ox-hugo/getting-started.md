@@ -2,9 +2,7 @@
 title: "Getting Started"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo"]
-categories: ["Docs"]
 draft: false
 weight: 1
 next: /docs/ox-hugo/guide
@@ -18,7 +16,7 @@ prev: /docs/ox-hugo
 
 {{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
 
-You could quickly get started by using the above template repository. ![](/home/junghan/sync/org/docs/20240426_163954_screenshot.png)
+You could quickly get started by using the above template repository. <20240426_163954_screenshot.png>
 
 We have provided a [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) which can help automatically build and deploy your site to GitHub Pages, and host it for free. For more options, check out [Deploy Site](../guide/deploy-site).
 

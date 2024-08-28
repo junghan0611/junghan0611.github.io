@@ -2,9 +2,7 @@
 title: "Deploy Site"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo", "menu"]
-categories: ["Docs"]
 draft: false
 prev: /docs/ox-hugo/guide/shortcodes
 next: /docs/advanced
@@ -166,6 +164,6 @@ Check [Hugo on Netlify](https://docs.netlify.com/integrations/frameworks/hugo/) 
     1.  Set Build Command to `hugo --gc --minify`
     2.  Set Install Command to `yum install golang`
 
-{{< figure src="/home/junghan/sync/org/docs/20240428_082128_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>Vercel Deployment Configuration" >}}
+<20240428_082128_screenshot.png>
 
 <https://github.com/imfing/hextra/assets/5097752/887d949b-8d05-413f-a2b4-7ab92192d0b3>

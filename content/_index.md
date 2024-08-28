@@ -7,18 +7,17 @@ title:
 toc: false
 ---
 
-## 인생도구: Life Hacking System 🦾 {#인생도구-life-hacking-system}
+## 어솔로지: 인생도구 및 시스템  🦾 {#어솔로지-인생도구-및-시스템}
 
--   **Productivity Hacking**
--   **Digital Minimalism**
--   **Hyper-focus**
--   **Meaningful Life**
--   **Awareness**
--   **Integrated AI**
--   **Personalized AI**
--   **Personalized Knowledge Graph**
--   **Publishing**
--   **Lifetime Use**
+-   Authorlogical Thinking
+-   Productivity Hacking
+-   Digital Minimalism
+-   Hyper-focus
+-   Meaningful Life
+-   Awareness
+-   Personalized AI
+-   Publishing
+-   Lifetime Use
 
 삶은 언제나 여여(如如)하다. 이 녀석 하나 뿐이지만 더할 것도 뺄 것도 없다.
 

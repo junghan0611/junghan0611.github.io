@@ -3,9 +3,10 @@ title: "Talks"
 author: ["Junghan Kim"]
 date: 2024-08-27T15:04:00+09:00
 draft: false
-title: Talks
 description: "그의 이야기"
 toc: true
+comments: false
+layout: wide
 ---
 
 <p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">

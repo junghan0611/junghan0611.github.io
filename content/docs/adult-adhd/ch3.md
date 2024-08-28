@@ -3,7 +3,6 @@ title: "3.하루를 어떻게 보냅니까? 일일 계획표"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
-categories: ["Docs"]
 draft: false
 weight: 4
 ---

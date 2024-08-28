@@ -14,13 +14,13 @@
 
         <div class="hx-content hx-mt-4">{{ .Content }}</div>
         {{ if eq .Kind "taxonomy" }}
-        {{ $allTags := (T "allTags") }}
+        {{ $allSeries := (T "allSeries") }}
         {{ $taggedWith := (T "taggedWith") }}
-        <!-- Tags Index Listing -->
+        <!-- Series Index Listing -->
 
-        <h2>{{ $allTags }}</h2>
+        <h2>{{ $allSeries }}</h2>
         <ul style="list-style: none; margin-left: 0;">
-          {{- range $.Site.Taxonomies.tags.Alphabetical -}}
+          {{- range $.Site.Taxonomies.series.Alphabetical -}}
             <li class="hx-mt-2 hx-text-center">
               <span class="hx-opacity-70 hx-text-sm hx-leading-7 hx-mt-4">
               <a href="{{ .Page.RelPermalink }}" title="{{ $taggedWith }} {{ .Page.Title }}" class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-3 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">{{ .Page.Title }}: <b>{{ .Count }}</b></a>
@@ -31,7 +31,7 @@
       {{ else if eq .Kind "term" }}
         <!-- Tags Posts Listing -->
         {{ $tagName := .Title }} <!-- Assuming you're in the context of a specific tag -->
-        {{ $tagPosts := where .Site.RegularPages "Params.tags" "intersect" (slice $tagName) }}
+        {{ $tagPosts := where .Site.RegularPages "Params.series" "intersect" (slice $tagName) }}
         {{ $noPosts := (T "noPosts") }}
 
         {{ if gt (len $tagPosts) 0 }}
@@ -49,32 +49,32 @@
               <span class="hx-opacity-50 hx-text-xs hx-leading-5">{{ partial "utils/format-date" .Date }}</span>
 
         <!-- Series Index Listing -->
-            {{- if site.Params.blog.list.displaySeries -}}
-              {{ with .Params.series }}
-              <span class="hx-opacity-70 hx-text-sm hx-leading-5 hx-mt-4">
-                {{- range . }}
-                <a href="/series/{{ . | urlize }}" class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">
-                  {{ partial "utils/icon.html" (dict "name" "collection" "attributes" "height=12") }}
-                  {{ . }}
-                </a>
-                {{ end -}}
-              </span>
-              {{ end -}}
-            {{- end -}}
-
-        <!-- Categories Index Listing -->
-              <!-- {{- if site.Params.blog.list.displayCategories -}}
-                   {{ with .Params.categories }}
+              <!-- {{- if site.Params.blog.list.displaySeries -}}
+                   {{ with .Params.series }}
                    <span class="hx-opacity-70 hx-text-sm hx-leading-5 hx-mt-4">
                    {{- range . }}
-                   <a href="/categories/{{ . | urlize }}" class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">
-                   {{ partial "utils/icon.html" (dict "name" "tag" "attributes" "height=12") }}
+                   <a href="/series/{{ . | urlize }}" class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">
+                   {{ partial "utils/icon.html" (dict "name" "collection" "attributes" "height=12") }}
                    {{ . }}
                    </a>
                    {{ end -}}
                    </span>
                    {{ end -}}
                    {{- end -}} -->
+
+        <!-- Categories Index Listing -->
+              {{- if site.Params.blog.list.displayCategories -}}
+              {{ with .Params.categories }}
+              <span class="hx-opacity-70 hx-text-sm hx-leading-5 hx-mt-4">
+                {{- range . }}
+                <a href="/categories/{{ . | urlize }}" class="hx-mr-2 not-prose hx-inline-flex hx-items-center hx-rounded-full hx-gap-2 hx-my-1 hx-px-3 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200">
+                  {{ partial "utils/icon.html" (dict "name" "tag" "attributes" "height=12") }}
+                  {{ . }}
+                </a>
+                {{ end -}}
+              </span>
+              {{ end -}}
+              {{- end -}}
 
         <!-- Tags Index Listing -->
             {{- if site.Params.blog.list.displayTags -}}
@@ -90,13 +90,13 @@
               {{ end -}}
             {{- end -}}
 
-              <!-- <p class="hx-opacity-80 hx-mt-4 hx-leading-7">
-                   {{- partial "utils/page-description" . -}} &nbsp;
-                   <br/>
-                   <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-                   {{- $readMore -}}
-                   </a>
-                   </p> -->
+              <p class="hx-opacity-80 hx-mt-4 hx-leading-7">
+                {{- partial "utils/page-description" . -}} &nbsp;
+                <br/>
+                <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
+                  {{- $readMore -}}
+                </a>
+              </p>
 
             </div>
 

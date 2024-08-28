@@ -9,9 +9,7 @@ authors:
     link: https://github.com/octocat
     image: https://github.com/octocat.png
 tags:
-  - Markdown
-  - Example
-  - Guide
+  - English
 excludeSearch: true
 ---
 

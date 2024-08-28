@@ -13,7 +13,8 @@ authors:
 #   - Example
 #   - Guide
 tags: ["Markdown", "Example", "Guide"]
-# categories: ["Demo"]
+categories: ["Sample Categories"]
+series: ["Sample Series"]
 excludeSearch: true
 ---
 

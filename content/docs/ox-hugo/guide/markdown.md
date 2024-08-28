@@ -2,9 +2,7 @@
 title: "Markdown"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo", "menu"]
-categories: ["Docs"]
 draft: false
 weight: 2
 ---
@@ -85,11 +83,11 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 
 <https://source.unsplash.com/featured/800x600?landscape>
 
-org-attach 이용 (local) ![](/home/junghan/sync/org/docs/20240427_083652_screenshot.png)
+org-attach 이용 (local) <20240427_083652_screenshot.png>
 
 With caption:
 
-{{< figure src="/home/junghan/sync/org/docs/20240427_083652_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>Unsplash Landscape" >}}
+<20240427_083652_screenshot.png>
 
 다른 예 (online)
 

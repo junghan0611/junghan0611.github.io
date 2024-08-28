@@ -3,9 +3,7 @@ title: "Guide"
 author: ["Junghan Kim"]
 description: "Guide"
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo", "menu", "index"]
-categories: ["Docs"]
 draft: false
 
 title: Guide

@@ -2,9 +2,7 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
-series: ["BASIC"]
-keywords: ["Adhd"]
-categories: ["Docs"]
+keywords: ["adhd", "adult", "aprj", "docs", "guide", "index", "ATTACH"]
 draft: false
 title: "성인 ADHD 가이드"
 linkTitle: "성인 ADHD 가이드"
@@ -20,4 +18,8 @@ weight: 9
 
 구글 독스로 올려 놓은 문서에 참 많은 분들이 참여해 주셨다. 문서의 보다 개선하기 위해서 변환 후 활용.
 
-{{< figure src="/images/_20240827_155642screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>구글독스 스크린샷" width="100%" >}}
+<div align="left">
+
+<_20240827_155642screenshot.png>
+
+</div>

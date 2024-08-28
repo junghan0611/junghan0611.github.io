@@ -3,7 +3,6 @@ title: "9.정보 관리 : 정보를 기록하고, 조직하고 , 관리하기"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
-categories: ["Docs"]
 draft: false
 weight: 10
 ---

@@ -2,9 +2,7 @@
 title: "Icon"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo", "menu"]
-categories: ["Docs"]
 draft: false
 weight: 5
 ---

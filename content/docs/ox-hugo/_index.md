@@ -2,9 +2,7 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-04-30T07:16:00+09:00
-series: ["BASIC"]
 keywords: ["docs", "hugo", "index"]
-categories: ["Docs"]
 draft: false
 title: "Hextra 문서"
 linkTitle: "Hextra 문서"

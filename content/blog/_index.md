@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: "블로그"
 ---
 
 <div class="c4w-badges" style="text-align: center; margin-top: 1em;">
@@ -19,19 +19,24 @@ title: Blog
 <!--   <span>LinkedIn</span> -->
 <!-- {{< /hextra/hero-badge >}} -->
 
+{{< hextra/hero-badge link="/series" >}}
+  {{< icon name="collection" attributes="height=14" >}}
+  <span>시리즈</span>
+{{< /hextra/hero-badge >}}
+
 {{< hextra/hero-badge link="/categories" >}}
   {{< icon name="tag" attributes="height=14" >}}
-  <span>Categories</span>
+  <span>카테고리</span>
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-badge link="/tags" >}}
   {{< icon name="hashtag" attributes="height=14" >}}
-  <span>Tags</span>
+  <span>태그</span>
 {{< /hextra/hero-badge >}}
 
 {{< hextra/hero-badge link="index.xml" >}}
   {{< icon name="rss" attributes="height=14" >}}
-  <span>RSS Feed</span>
+  <span>RSS</span>
 {{< /hextra/hero-badge >}}
 
 </div>

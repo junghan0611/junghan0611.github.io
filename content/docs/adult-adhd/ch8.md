@@ -3,7 +3,6 @@ title: "8.위탁 대처 기술 : 아웃소싱"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
-categories: ["Docs"]
 draft: false
 weight: 9
 ---
