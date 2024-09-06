@@ -176,7 +176,7 @@ params:
       displaySeries: true
       # date | lastmod | publishDate | title | weight
       sortBy: lastmod
-      sortOrder: asc # desc 
+      sortOrder: desc # asc
 
   comments:
     enable: true
