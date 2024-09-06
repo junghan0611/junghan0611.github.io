@@ -26,12 +26,13 @@ languages:
     languageName: 한국어
     weight: 1
     languageCode: ko
-    title: 어솔로지 @junghanacs
+    title: 어솔로지@junghanacs
+
   en:
     languageName: English
     weight: 2
     languageCode: en
-    title: Authorlogy @junghanacs
+    title: Authorlogy@junghanacs
 
 markup:
   goldmark:
@@ -77,11 +78,11 @@ menu:
       weight: 6
       params:
         type: search
-    - name: GitHub
-      weight: 7
-      url: "https://github.com/junghan0611/junghanacs.com"
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 7
+    #   url: "https://github.com/junghan0611/junghanacs.com"
+    #   params:
+    #     icon: github
     # - name: Mastodon
     #   weight: 9
     #   url: "https://emacs.ch/@junghanacs"
@@ -175,7 +176,7 @@ params:
       displaySeries: true
       # date | lastmod | publishDate | title | weight
       sortBy: lastmod
-      sortOrder: desc # or "asc"
+      sortOrder: asc # desc 
 
   comments:
     enable: true
