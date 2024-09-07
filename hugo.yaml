@@ -55,32 +55,22 @@ menu:
       name: Docs
       pageRef: /docs
       weight: 1
-      params:
-        icon: book-open
     - identifier: blog
       name: Blog
       pageRef: /blog
       weight: 2
-      params:
-        icon: pencil-alt
     - identifier: talks
       name: Talks
       pageRef: /talks
       weight: 3
-      params:
-        icon: video-camera
     - identifier: about
       name: About
       pageRef: /about
       weight: 4
-      params:
-        icon: information-circle
     - identifier: notes
       name: Notes ↗
       weight: 5
       url: "https://notes.junghanacs.com"
-      params:
-        icon: collection
     - name: Search
       weight: 6
       params:
