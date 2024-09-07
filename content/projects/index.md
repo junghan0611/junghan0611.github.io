@@ -1,8 +1,10 @@
 ---
-title: Showcase
+title: "Projects"
 description: "Open source projects powered by Hextra"
 toc: false
 layout: wide
+sidebar:
+  exclude: true
 ---
 
 <div class="hx-mt-4"></div>

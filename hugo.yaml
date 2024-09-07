@@ -27,7 +27,6 @@ languages:
     weight: 1
     languageCode: ko
     title: 어솔로지@junghanacs
-
   en:
     languageName: English
     weight: 2
@@ -56,28 +55,39 @@ menu:
       name: Docs
       pageRef: /docs
       weight: 1
+      params:
+        icon: book-open
     - identifier: blog
       name: Blog
       pageRef: /blog
       weight: 2
+      params:
+        icon: pencil-alt
     - identifier: talks
       name: Talks
       pageRef: /talks
       weight: 3
-    - name: Note ↗
-      weight: 4
-      url: "https://notes.junghanacs.com"
+      params:
+        icon: video-camera
     - identifier: about
       name: About
       pageRef: /about
+      weight: 4
+      params:
+        icon: information-circle
+    - identifier: notes
+      name: Notes ↗
       weight: 5
-    # - name: Contact ↗
-    #   weight: 6
-    #   url: "https://github.com/junghan0611"
+      url: "https://notes.junghanacs.com"
+      params:
+        icon: collection
     - name: Search
       weight: 6
       params:
         type: search
+    # - name: Contact ↗
+    #   weight: 6
+    #   url: "https://github.com/junghan0611"
     # - name: GitHub
     #   weight: 7
     #   url: "https://github.com/junghan0611/junghanacs.com"
@@ -100,9 +110,9 @@ menu:
       params:
         type: separator
       weight: 1
-    # - name: Notes ↗
-    #   weight: 2
-    #   url: "https://notes.junghanacs.com"
+    - name: Notes ↗
+      weight: 2
+      url: "https://notes.junghanacs.com"
     # - identifier: about
     #   name: "About"
     #   pageRef: "/about"

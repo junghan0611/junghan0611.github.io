@@ -1,5 +1,5 @@
 ---
-title: "블로그"
+title: "Blog"
 ---
 
 <div class="c4w-badges" style="text-align: center; margin-top: 1em;">
