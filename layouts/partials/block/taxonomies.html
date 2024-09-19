@@ -3,7 +3,7 @@
       {{ if .Params.series }}
       {{ range .Params.series }}
       <li>
-          <a href="{{ (urlize (printf "series/%s" . )) | relLangURL }}/"
+          <a href="{{ (anchorize (printf "series/%s" . )) | relLangURL }}/"
               class="text-sm mr-2 px-2 py-1 font-semibold rounded border border-emerald-800 bg-emerald-800 text-slate-50">
               {{ . }}
           </a>
@@ -13,7 +13,7 @@
       {{ if .Params.categories }}
       {{ range .Params.categories }}
       <li>
-          <a href="{{ (urlize (printf "categories/%s" . )) | relLangURL }}/"
+          <a href="{{ (anchorize (printf "categories/%s" . )) | relLangURL }}/"
               class="flex flex-row text-sm font-semibold mr-2 py-1">
               <i class="h-5 w-5 flex-none">
                   {{ partial "icon.html" site.Params.taxonomies.icons.categories }}
@@ -26,7 +26,7 @@
       {{ if .Params.tags }}
       {{ range .Params.tags }}
       <li>
-          <a href="{{ (urlize (printf "tags/%s" . )) | relLangURL }}/"
+          <a href="{{ (anchorize (printf "tags/%s" . )) | relLangURL }}/"
               class="flex flex-row text-sm font-semibold mr-1 py-1">
               <i class="h-5 w-5 flex-none">
                   {{ partial "icon.html" site.Params.taxonomies.icons.tags }}

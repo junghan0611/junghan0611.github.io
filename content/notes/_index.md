@@ -1,6 +1,14 @@
 ---
-title: "Blog"
+title: "Notes - Brain Dump, Digital Garden"
+comments: false
+layout: wide
 ---
+
+<p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+🚧 공사중 - 메타, 저널, 문헌, 임시 노트 ...
+</p>
+
+<!--more-->
 
 <div class="c4w-badges" style="text-align: center; margin-top: 1em;">
 
@@ -40,3 +48,4 @@ title: "Blog"
 {{< /hextra/hero-badge >}}
 
 </div>
+

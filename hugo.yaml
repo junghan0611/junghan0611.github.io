@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://www.junghanacs.com/"
-title: "Authorlogy @junghanacs"
+title: "#authology @junghanacs"
 
 # disablePathToLower: true
 enableRobotsTXT: true
@@ -26,21 +26,26 @@ languages:
     languageName: 한국어
     weight: 1
     languageCode: ko
-    title: 어솔로지@junghanacs
+    title: #어쏠로지 @junghanacs
   en:
     languageName: English
     weight: 2
     languageCode: en
-    title: Authorlogy@junghanacs
+    title: #authology @junghanacs
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingIDType: github
   highlight:
     noClasses: false
 
 enableInlineShortcodes: true
+
+capitalizeListTitles: false
+pluralizeListTitles: false
 
 taxonomies:
   category: categories
@@ -59,35 +64,49 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
+    - identifier: notes
+      name: Notes
+      pageRef: /notes
+      weight: 3
     - identifier: talks
       name: Talks
       pageRef: /talks
-      weight: 3
+      weight: 4
     - identifier: about
       name: About
       pageRef: /about
-      weight: 4
-    - identifier: notes
-      name: Notes ↗
       weight: 5
-      url: "https://notes.junghanacs.com"
     - name: Search
       weight: 6
       params:
         type: search
+    - name: Threads ↗
+      weight: 7
+      url: "https://www.threads.net/@junghanacs"
+      params:
+        icon: threads
+    - name: GitHub
+      weight: 8
+      url: "https://github.com/junghan0611/junghanacs.com"
+      params:
+        icon: github
+    # - name: Allmylinks
+    #   weight: 8
+    #   url: "https://allmylinks.com/junghanacs"
+    #   params:
+    #     icon: bookmark
+    # - name: Mastodon
+    #   weight: 8
+    #   url: "https://fosstodon.org/@junghanacs"
+    #   params:
+    #     icon: mastodon
+    # - identifier: notes
+    #   name: Notes ↗
+    #   weight: 5
+    #   url: "https://notes.junghanacs.com"
     # - name: Contact ↗
     #   weight: 6
     #   url: "https://github.com/junghan0611"
-    # - name: GitHub
-    #   weight: 7
-    #   url: "https://github.com/junghan0611/junghanacs.com"
-    #   params:
-    #     icon: github
-    # - name: Mastodon
-    #   weight: 9
-    #   url: "https://emacs.ch/@junghanacs"
-    #   params:
-    #     icon: mastodon
     # - name: Twitter
     #   weight: 9
     #   url: "https://twitter.com/junghanacs"
@@ -100,21 +119,49 @@ menu:
       params:
         type: separator
       weight: 1
-    - name: Notes ↗
+    - name: Threads ↗
       weight: 2
-      url: "https://notes.junghanacs.com"
+      url: "https://www.threads.net/@junghanacs"
+      params:
+        icon: threads
+    - name: Mastodon ↗
+      weight: 3
+      url: "https://fosstodon.org/@junghanacs"
+      params:
+        icon: mastodon
+    - name: Allmylinks ↗
+      weight: 8
+      url: "https://allmylinks.com/junghanacs"
+    # - name: Github ↗
+    #   weight: 4
+    #   url: "https://github.com/junghan0611/junghanacs.com"
+    #   params:
+    #     icon: github
+    # - name: living-with-adhd ↗
+    #   weight: 5
+    #   url: "https://living-with-adhd.tistory.com"
+    # - name: Zotero library ↗
+    #   weight: 6
+    #   url: "https://www.zotero.org/groups/5570207/junghanacs/library"
+    # - name: Youtube ↗
+    #   weight: 7
+    #   url: "https://www.youtube.com/@junghanacs"
+    #   params:
+    #     icon: youtube
+    # - name: Hypothes.is ↗
+    #   weight: 7
+    #   url: "https://hypothes.is/groups/VgqoXXE1/junghanacs"
+    # - name: Naver terms ↗
+    #   weight: 8
+    #   url: "https://vvd.bz/eGeQ"
+    # - name: VIAF ID ↗
+    #   weight: 9
+    #   url: "http://viaf.org/viaf/101153409787341582950"
+    # https://allmylinks.com/junghanacs
     # - identifier: about
     #   name: "About"
     #   pageRef: "/about"
     #   weight: 3
-    # - name: GitHub
-    #   weight: 8
-    #   url: "https://github.com/junghan0611/junghanacs.com"
-    #   params:
-    #     icon: github
-    # - name: Mastodon
-    #   weight: 9
-    #   url: "https://emacs.ch/@junghanacs"
     # - name: Twitter
     #   weight: 10
     #   url: "https://twitter.com/junghanacs"
@@ -170,6 +217,15 @@ params:
     base: "https://github.com/junghan0611/junghanacs.com/edit/main/content"
 
   blog:
+    list:
+      displayTags: true
+      displayCategories: true
+      displaySeries: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # asc
+
+  notes:
     list:
       displayTags: true
       displayCategories: true
