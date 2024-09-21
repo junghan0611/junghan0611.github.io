@@ -1,6 +1,13 @@
 ---
-title: "Blog"
+title: "Blog #Essay"
+comments: false
 ---
+
+<p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+🚧 곰국. 노트에서 건져 올리는 중.
+</p>
+
+<!--more-->
 
 <div class="c4w-badges" style="text-align: center; margin-top: 1em;">
 

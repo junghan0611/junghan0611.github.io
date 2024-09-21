@@ -2,6 +2,7 @@
 title: "4.할 일을 정하고 우선순위에 따라 수행하기: 시간과 과제 관리"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
+lastmod: 2024-09-20T12:00:39+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
 draft: false
 weight: 5

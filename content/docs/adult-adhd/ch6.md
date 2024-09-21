@@ -2,6 +2,7 @@
 title: "6.계획을 유지하기(1) 동기, 감정, 에너지"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
+lastmod: 2024-09-20T12:00:40+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
 draft: false
 weight: 7

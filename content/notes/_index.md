@@ -1,7 +1,6 @@
 ---
-title: "Notes - Brain Dump, Digital Garden"
+title: "Notes #BrainDump"
 comments: false
-layout: wide
 ---
 
 <p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
@@ -42,10 +41,10 @@ layout: wide
   <span>Tags</span>
 {{< /hextra/hero-badge >}}
 
-{{< hextra/hero-badge link="index.xml" >}}
-  {{< icon name="rss" attributes="height=14" >}}
-  <span>RSS</span>
-{{< /hextra/hero-badge >}}
+<!-- {{< hextra/hero-badge link="index.xml" >}} -->
+<!--   {{< icon name="rss" attributes="height=14" >}} -->
+<!--   <span>RSS</span> -->
+<!-- {{< /hextra/hero-badge >}} -->
 
 </div>
 

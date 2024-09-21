@@ -47,8 +47,9 @@
           </a>
           {{ end -}}
         </span>
-        {{ end -}} {{- end -}} {{- if site.Params.blog.list.displayTags -}} {{
-        with .Params.tags }}
+        {{ end -}} {{- end -}}
+
+        {{- if site.Params.blog.list.displayTags -}} {{with .Params.tags }}
         <span class="hx-opacity-80 hx-text-sm hx-leading-4 hx-mt-4">
           {{- range . }}
           <a

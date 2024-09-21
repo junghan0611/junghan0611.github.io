@@ -2,6 +2,7 @@
 title: "1.서론"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
+lastmod: 2024-09-20T12:00:39+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide"]
 draft: false
 weight: 2
