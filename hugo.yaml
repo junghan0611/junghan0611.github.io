@@ -11,9 +11,9 @@ hasCJKLanguage: true
 languageCodeCountry: "kr"
 timeZone: "Asia/Seoul"
 
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    ID: G-SQ5W1JTDLZ
 
 # import hextra as module
 module:
