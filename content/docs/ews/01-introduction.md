@@ -2,7 +2,7 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-06-03T06:53:00+09:00
-lastmod: 2024-09-19T15:40:33+09:00
+lastmod: 2024-09-24T18:19:47+09:00
 draft: false
 weight: 1
 title: Introduction 소개

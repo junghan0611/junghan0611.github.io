@@ -210,7 +210,7 @@ params:
       index: title
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-      tokenize: forward
+      tokenize: reverse
 
   editURL:
     enable: true

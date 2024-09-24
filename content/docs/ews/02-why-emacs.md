@@ -9,7 +9,7 @@ linkTitle: "이맥스를 사용하는 이유"
 
 <!--more-->
 
-<a class="org-gls" href="#gls.1" id="glsr.1.1">Abbrev</a>
+<a class="org-gls" href="#gls.1" id="glsr.1.1">이맥스</a>
 
 Emacs의 공식 태그 라인은 "확장 가능한 자체 문서화 텍스트 편집기"라는 것입니다. 이 단어는 소프트웨어 개발 도구라는 원래의 목적에 초점을 맞추고 있기 때문에 Emacs를 제대로 표현하지 못합니다. Emacs는 정보 관리, 프로젝트 추적, 기사, 책, 웹사이트 및 기타 텍스트 기반 활동을 작성하고 게시하는 데 도움이 되는 다목적 컴퓨팅 환경입니다. Emacs는 생산성 해킹이 아니라 생산성 해킹 시스템입니다. Emacs는 생산성 도구의 스위스 군용 전기톱입니다.
 
@@ -53,7 +53,7 @@ Emacs는 '유연한 소프트웨어' 플랫폼으로, 작동 방식을 자유롭
 
 > If you take the blue Microsoft pill, the story ends, and everything stays the same. If you take the purple Emacs pill, you stay in Wonderland, and I show you how deep the rabbit hole goes.
 >
-> 파란색 Microsoft 알약을 먹으면 이야기가 끝나고 모든 것이 그대로 유지됩니다. 보라색 이맥스 알약을 먹으면 원더랜드에 머물게 되고, 토끼굴이 얼마나 깊은지 보여드릴게요.
+> 파란색 Microsoft 알약을 먹으면 이야기가 끝나고 모든 것이 그대로 유지됩니다. 보라색 <a class="org-gls" href="#gls.1" id="glsr.1.2">이맥스</a> 알약을 먹으면 원더랜드에 머물게 되고, 토끼굴이 얼마나 깊은지 보여드릴게요.
 
 
 ## Redefining user-friendliness 사용자 친화성 재정의 {#redefining-user-friendliness-사용자-친화성-재정의}
@@ -135,7 +135,7 @@ Emacs의 방법과 어휘는 다른 현대 소프트웨어에 비해 낯설게 �
 4.  Emacs는 모든 주요 운영 체제에서 실행됩니다: GNU/Linux, Windows, Chrome, MacOS.
 5.  Emacs는 기꺼이 도움을 주는 대규모 커뮤니티에서 지원하는 무료(리브레) 소프트웨어입니다.
 
-이 다기능 편집기에 대해 찬사를 보내고 나면, 이맥스가 소프트웨어의 전지전능한 신이라고 생각할 수도 있습니다. 어떤 사람들은 이 지극히 유연한 소프트웨어 환경에 대한 찬사를 표현하기 위해 모의 종교로 /이맥스 교회/를 설립하기도 했습니다. 이러한 찬사에도 불구하고 이맥스는 몇 가지 한계가 있습니다.
+이 다기능 편집기에 대해 찬사를 보내고 나면, 이맥스가 소프트웨어의 전지전능한 신이라고 생각할 수도 있습니다. 어떤 사람들은 이 지극히 유연한 소프트웨어 환경에 대한 찬사를 표현하기 위해 모의 종교로 /<a class="org-gls" href="#gls.1" id="glsr.1.3">이맥스</a> 교회/를 설립하기도 했습니다. 이러한 찬사에도 불구하고 이맥스는 몇 가지 한계가 있습니다.
 
 Emacs는 이미지를 표시하고 텍스트와 통합할 수 있지만 그래픽 파일을 만들거나 수정하는 데는 기능이 제한되어 있습니다. 사진을 만들거나 편집해야 하는 경우 김프(GNU 이미지 조작 프로그램)를 사용하는 것이 좋습니다. 동영상 콘텐츠는 파일 또는 웹사이트에 대한 하이퍼링크 외에는 지원되지 않습니다. 하지만 이러한 제한은 Emacs의 핵심 기능이 텍스트 처리라는 점을 감안하면 용납할 수 있습니다.
 
@@ -199,15 +199,6 @@ _제텔카스텐_ 또는 /불렛 저널/과 같은 특정 노트 필기 방법�
 이 책을 읽는 가장 좋은 방법은 컴퓨터 앞에 앉아 책을 읽으면서 직접 시도해 보는 것입니다. 다양한 옵션을 실험해보고 파일을 만들어서 사용해 보세요.
 
 
-## Next {#next}
-
-Dive right into the following section to get started:
-
-{{< cards >}}
-  {{< card link="../03-getting-started" title="이맥스 시작하기" icon="document-text" subtitle="Getting Started with GNU Emacs" >}}
-{{< /cards >}}
-
-
 ## Glossary {#glossary}
 
-**<span class="org-glsdef" id="gls.645">Abbrev</span>**&emsp;An abbrev is a text string that expands into a different text string when present in the buffer. For example, you might define a few letters as an abbrev for a long phrase that you want to insert frequently. See [Abbrevs](Abbrevs.html).&ensp;<a class="org-glsdef" href="#glsr.1.1">1</a>
+**<span class="org-glsdef" id="gls.1">이맥스</span>**&emsp;Emacs&ensp;<a class="org-glsdef" href="#glsr.1.1">1</a>, <a class="org-glsdef" href="#glsr.1.2">2</a>, <a class="org-glsdef" href="#glsr.1.3">3</a>

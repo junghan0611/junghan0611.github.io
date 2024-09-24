@@ -2,7 +2,7 @@
 title: "Introduction"
 author: ["Junghan Kim"]
 date: 2024-05-18T05:57:00+09:00
-lastmod: 2024-09-20T12:00:39+09:00
+lastmod: 2024-09-24T18:33:12+09:00
 keywords: ["adhd", "adult", "aprj", "docs", "guide", "index", "ATTACH"]
 draft: false
 title: "성인 ADHD 가이드"
@@ -22,3 +22,12 @@ weight: 9
 <a id="figure--fig-gdocs"></a>
 
 {{< figure src="/images/_20240827_155642screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>구글 독스 스크린샷" width="80%" >}}
+
+
+## Next {#next}
+
+다음 섹션으로 바로 이동하여 시작하세요:
+
+{{< cards >}}
+  {{< card link="preface" title="0. 서문" icon="document-text" subtitle="서문" >}}
+{{< /cards >}}
