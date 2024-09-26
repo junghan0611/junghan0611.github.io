@@ -28,6 +28,29 @@ html,
   -webkit-tap-highlight-color: transparent; /* 7 */
 }
 
+.org-todo,
+.todo,
+.org-done,
+.done,
+.timestamp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+.TODO {
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 80% / 0.7);
+}
+
+.DONE {
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 10% / 0.1);
+}
+
+.timestamp {
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 10% / 0.1);
+}
+
 /* .content { */
 /*   font-family: "Times New Roman", Times, serif; */
 /* } */
