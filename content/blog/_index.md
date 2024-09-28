@@ -4,7 +4,7 @@ comments: false
 ---
 
 <p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
-🚧 곰국. 노트에서 건져 올리는 중.
+#곰국 #노트를끓여라 #에세이 #에버그린 #제텔 #영구노트 #잘섞어서문서함
 </p>
 
 <!--more-->

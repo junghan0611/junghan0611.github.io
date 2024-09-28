@@ -68,28 +68,32 @@ menu:
       name: Notes
       pageRef: /notes
       weight: 3
+    - identifier: journal
+      name: Journal
+      pageRef: /series/journal
+      weight: 4
     - identifier: talks
       name: Talks
       pageRef: /talks
-      weight: 4
+      weight: 5
     - identifier: about
       name: About
       pageRef: /about
-      weight: 5
-    - name: Search
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
     - name: Threads ↗
-      weight: 7
+      weight: 8
       url: "https://www.threads.net/@junghanacs"
       params:
         icon: threads
-    - name: GitHub
-      weight: 8
-      url: "https://github.com/junghan0611/junghanacs.com"
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 8
+    #   url: "https://github.com/junghan0611/junghanacs.com"
+    #   params:
+    #     icon: github
     # - name: Allmylinks
     #   weight: 8
     #   url: "https://allmylinks.com/junghanacs"
