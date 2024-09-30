@@ -70,7 +70,7 @@ menu:
       weight: 3
     - identifier: journal
       name: Journal
-      pageRef: /series/journal
+      pageRef: /categories/journal
       weight: 4
     - identifier: talks
       name: Talks
